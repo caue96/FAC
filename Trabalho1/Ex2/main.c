@@ -8,8 +8,11 @@ int main(int argc,char *argv[])
    for(i=0;i<argc;i++){
 	   if(i==0){
 		   printf("Nome do executavel:%s\n",argv[i]);
-	   }else{
+	   }
+	   else{
 		   printf("Parametro #%d: %s \n",i,argv[i]);
-	   
+	   }
+   }
+
 	return 0;
 }

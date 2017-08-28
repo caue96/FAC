@@ -1,7 +1,67 @@
 Sistema operacional utilizado: Linux Mint/Elementary OS.
 
-Ambiente de desenvolvimento utilizado: Sublime Text.
 
-Instruções de uso: 
+Ambiente de desenvolvimento utilizado: Sublime Text/Visual Studio Code.
 
-Limitações conhecidas: Sem limitações conhecidas.
+
+Instruções de uso: Para rodar o 'Exercício 2' é necessário que se esteja no diretório onde se encontra os
+arquivos .c e .h deste exercício. O programa não conteḿ um arquivo 'Makefile', pois como o objetivo deste
+exercício é mexer com os atributos 'argc' e '*argv[]' não havia possibilidade de se gerar um 'Makefile' e
+ter a possibilidade de testar o programa, pois a intenção é não de ter um 'Makefile' com um texto já
+definido que rodará com algo fixo e sim de você digitar o texto que você quiser para testar o programa.
+Para isto para rodar o programa será necessário digitar alguns comandos em seu terminal. Certifique-se que
+você está no diretório onde se encontra o 'Exercício 2' e em seguida digite o seguinte comando
+'gcc main.c -o "ESCOLHA UM NOME QUALQUER PARA O PROGRAMA"' em seguida para rodar o programa digite
+'./"NOME DE SEU PROGRAMA"' e logo em seguida antes de dar o enter digita qualquer texto que você quiser
+para utilizar do programa.
+
+Exemplo de entrada 1:
+    ola eu sou um programa teste
+Exemplo de saída 1:
+    # de parametros:6
+    Nome do executavel:./ex2
+    Parametro #1: ola 
+    Parametro #2: eu 
+    Parametro #3: sou 
+    Parametro #4: um 
+    Parametro #5: programa 
+    Parametro #6: teste 
+
+Exemplo de entrada 2:
+    5 pessoas andam pelas ruas
+Exemplo de saída 2:
+    # de parametros:5
+    Nome do executavel:./ex2
+    Parametro #1: 5 
+    Parametro #2: pessoas 
+    Parametro #3: andam 
+    Parametro #4: pelas 
+    Parametro #5: ruas 
+
+Exemplo de entrada com caracteres especiais 1:
+    5 pessoas andam pelas ruas e !#
+Exemplo de saída com caracteres especiais 1:
+    # de parametros:13
+    Nome do executavel:./ex2
+    Parametro #1: 5 
+    Parametro #2: pessoas 
+    Parametro #3: andam 
+    Parametro #4: pelas 
+    Parametro #5: ruas 
+    Parametro #6: e 
+    Parametro #7: ./ex2 
+    Parametro #8: 5 
+    Parametro #9: pessoas 
+    Parametro #10: andam 
+    Parametro #11: pelas 
+    Parametro #12: ruas 
+    Parametro #13: e
+
+Exemplo de entrada com caracteres especiais 2:
+    5 pessoas andam pelas ruas e !@
+Exemplo de saída com caracteres especiais 2:
+bash: !@: event not found
+
+
+Limitações conhecidas: Sistema não roda com caracteres especiais juntos como como '!@', '!¨', '!&', '!(',
+'!)', entre outros, portanto evite utilizar caracteres especiais.

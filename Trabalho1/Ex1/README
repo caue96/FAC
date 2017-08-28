@@ -1,7 +1,42 @@
 Sistema operacional utilizado: Linux Mint/Elementary OS.
 
-Ambiente de desenvolvimento utilizado: Sublime Text.
 
-Instruções de uso: 
+Ambiente de desenvolvimento utilizado: Sublime Text/Visual Studio Code.
 
-Limitações conhecidas: Sem limitações conhecidas.
+
+Instruções de uso: Para rodar o 'Exercício 1' é necessário que se esteja no diretório onde se encontra os
+arquivos .c e .h deste exercício. O programa contém um arquivo 'Makefile' que gera um executável e 3
+arquivos .o referentes aos 3 arquivos .c existentes. Para rodar o 'Makefile' basta estar no diretório onde
+se encontra os arquivos deste exercício e digitar 'make' assim será gerado um executável do exercício. Você
+terá 2 opções para rodar o executável: 1° arrastando o executável para o terminal no diretório onde você
+deu o comando 'make' e o executável foi gerado; 2° digitando 'make run' no diretório onde você deu o
+comando 'make' e o executável foi gerado. Números double estão com 6 casas de precisão após o ponto.
+
+Exemplo de entrada 1:
+    0 1
+    1 0
+    2 3
+Exemplo de saída 1:
+    Raio: 1.581139
+    Centro: (1.500000, 1.500000)
+
+Exemplo de entrada 2:
+    0 0
+    0 0
+    0 1
+Exemplo de saída 2:
+    Circulo nao viavel
+
+Exemplo de entrada sem utilização de número 1:
+    a b
+Exemplo de saída sem utilização de número 1:
+    Circulo nao viavel
+
+Exemplo de entrada sem utilização de número 2:
+   ! @
+Exemplo de saída sem utilização de número 2:
+    Circulo nao viavel
+
+
+Limitações conhecidas: entradas que deem overflow em doubles, digitar strings no lugar de doubles ou
+qualquer caractere que não seja algum número.
