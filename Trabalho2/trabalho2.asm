@@ -1,5 +1,5 @@
 #Elisa Costa Lima-14/0038647
-#Caue Oliveira - 	
+#Caue Oliveira - 14/0056068	
 	 .data 
   msg:   .asciiz   "\nO modulo não eh primo\n"
   msg1:  .asciiz   "\nO inverso multiplicativo eh "	

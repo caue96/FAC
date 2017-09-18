@@ -2,6 +2,17 @@ Sistema operacional utilizado: Linux Mint/Elementary OS.
 
 Ambiente de desenvolvimento utilizado: MARS 4.5.
 
-Instruções de uso: 
+Instruções de uso: Execute o arquivo no Mars e rode ele para ser iniciado e você poder iniciar a utilizá-lo. Digite dois números inteiros e
+o programa irá calcular o inverso multiiplicativo entre os 2 números.
 
-Limitações conhecidas: 
+Exemplo 1:
+5
+2
+O inverso multiplicativo eh 3. 
+
+Exemplo 2:
+12
+3
+O modulo nao eh primo.
+
+Limitações conhecidas: Não funciona com números negativos, nem letras, nem números com ponto flutuante, somente números inteiros.
